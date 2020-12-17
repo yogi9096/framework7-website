@@ -604,6 +604,7 @@ block content
       routes = [
         ...
         // Creates Panel from passed HTML string
+        // Url : <a href="/left-panel/" class="link">
         {
           path: '/left-panel/',
           panel: {
@@ -619,6 +620,7 @@ block content
           }
         },
         // Load Panel from file via Ajax
+        // Url : <a href="/right-panel-ajax/" class="link">
         {
           path: '/right-panel-ajax/',
           panel: {
@@ -635,6 +637,7 @@ block content
           },
         },
         // Load Panel from component file
+        // Url : <a href="/panel-component/" class="link">
         {
           path: '/panel-component/',
           panel: {
